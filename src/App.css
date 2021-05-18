@@ -1,0 +1,134 @@
+body{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.header{
+  background-color: #212827;
+  display: flex;
+  justify-content: center;
+}
+
+.image{
+  width: 100px;
+  height: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.rightbox{
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  margin-left: 700px;
+  margin-right: 100px;
+  
+}
+.leftbox{
+  display: flex;
+  justify-content: left;
+  height: 0;
+}
+.paragtitle{
+  font-size: 40px;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+.paragdesc{
+  font-size: 17px;
+  font-weight: 600;
+}
+.selector{
+    font-size: 25px;
+    font-weight: 600;
+}
+.Preview{
+  width: 400px;
+  height: 65vh;
+  margin: 90px 100px 100px 140px;
+  position: relative;
+}
+.Photoselect{
+  width: 85px;
+  height: 13vh;
+  margin-right: 15px;
+  border-radius: 10px;
+}
+.Coloredselected{
+  border: 2px solid steelblue;
+  width: 85px;
+  height: 13vh;
+  margin-right: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.Featureditem{
+  width: 100px;
+  height: 40px;
+  background-color: gainsboro;
+  border-radius: 8px;
+  border: 0;
+  margin-right: 15px;
+  font-weight: 600;
+  box-sizing: content-box;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.Featureditem2{
+  width: 100px;
+  height: 40px;
+  background-color: gray;
+  color: white;
+  border-radius: 8px;
+  border: 0;
+  margin-right: 15px;
+  font-weight: 600;
+  text-align: center;
+  box-sizing: content-box;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.Featureditemcontainer{
+  display: flex;
+  flex-direction: row;
+}
+.Buyitem{
+  color: white;
+  background-color: teal;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+  border-radius: 8px;
+  font-weight: 600;
+  border: 0;
+  margin-top: 20px;
+  padding: 10px 20px;
+}
+.datetime{
+  position: absolute;
+  top: 49%;
+  left: 23%;
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 30px;
+}
+.HeartBeat-Section{
+  position: absolute;
+  top: 49%;
+  left: 24.3%;
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 30px;
+}
+.HeartBeat-Section > p {
+  margin-top: 16px;
+}
+.HeartBeat-Section > i {
+  color: red;
+  animation: beat 1s infinite;
+}
+@keyframes beat {
+  0% {
+    transform: scale(1, 1);
+  }
+  50%{
+    transform: scale(1.2, 1.2);
+  }
+  100%{
+    transform: scale(1, 1);
+  }
+}

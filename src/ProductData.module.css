@@ -1,0 +1,50 @@
+.paragtitle{
+  font-size: 40px;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+.paragdesc{
+  font-size: 17px;
+  font-weight: 600;
+}
+.selector{
+    font-size: 25px;
+    font-weight: 600;
+}
+    .Photoselect{
+      width: 85px;
+      height: 13vh;
+      margin-right: 15px;
+      border-radius: 10px;
+    }
+    .Coloredselected{
+      border: 2px solid steelblue;
+      width: 85px;
+      height: 13vh;
+      margin-right: 15px;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+    .Featureditem2{
+      width: 100px;
+      height: 40px;
+      background-color: gainsboro;
+      border-radius: 8px;
+      border: 0;
+      margin-right: 15px;
+      font-weight: 600;
+      box-sizing: content-box;
+      font-family: 'Source Sans Pro', sans-serif;
+    }
+    .Featureditem{
+      width: 100px;
+      height: 40px;
+      background-color: gray;
+      color: white;
+      border-radius: 8px;
+      border: 0;
+      margin-right: 15px;
+      font-weight: 600;
+      text-align: center;
+      box-sizing: content-box;
+      font-family: 'Source Sans Pro', sans-serif;}
